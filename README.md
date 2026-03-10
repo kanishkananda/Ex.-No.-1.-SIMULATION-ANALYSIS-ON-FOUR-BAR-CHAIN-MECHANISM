@@ -51,16 +51,22 @@ Plot the mechanism in different crank positions to get displacement of B and C.
 ![image](https://github.com/Sellakumar1987/Ex.-No.-1.-SIMULATION-ANALYSIS-ON-FOUR-BAR-CHAIN-MECHANISM/assets/113594316/a99fb530-e8df-49bf-9b2c-d537ff992534)
 
 Velocity Analysis
+
 Angular velocity of crank AB
 𝜔AB=2𝜋𝑁/60
 𝜔AB=2𝜋×100/60
 𝜔AB=10.47 rad/s
+
 This value of VBA is used to decide the scale for the velocity diagram
 velocity at point B
+
 Step 2: Velocity of point B
-𝑉𝐵=𝜔𝐴𝐵×𝐴𝐵
+
+
+𝑉𝐵=𝜔𝐴𝐵×𝐴b
 VB=10.47×0.03
 𝑉𝐵=0.314 m/s
+
 ![image](https://github.com/Sellakumar1987/Ex.-No.-1.-SIMULATION-ANALYSIS-ON-FOUR-BAR-CHAIN-MECHANISM/assets/113594316/76094ae8-a8af-48f3-b2c4-472ab800cc8e)
 
 ![image](https://github.com/Sellakumar1987/Ex.-No.-1.-SIMULATION-ANALYSIS-ON-FOUR-BAR-CHAIN-MECHANISM/assets/113594316/cb44fabe-6e16-4550-a2ec-4ee0f4cb6774)
