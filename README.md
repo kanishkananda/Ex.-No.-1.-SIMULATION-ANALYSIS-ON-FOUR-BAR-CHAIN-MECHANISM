@@ -20,21 +20,54 @@
 ###  ●	Geometry instruments.
 
 ## PROCEDURE:
-###   1. Draw a horizontal line AD of length 120 mm. 
-###   2. At A, Draw a line AB of length 30 mm at an angle of 600 
-###   3. With B as centre, BC = AD = 120mm draw an arc 
-###   4. With D as centre, CD = 60 mm draw another arc 
-###   5. Join BC and DC 
+###  Step 1: Draw the mechanism
 
-![image](https://github.com/Sellakumar1987/Ex.-No.-1.-SIMULATION-ANALYSIS-ON-FOUR-BAR-CHAIN-MECHANISM/assets/113594316/a99fb530-e8df-49bf-9b2c-d537ff992534)
+Draw the four-bar linkage ABCD to scale.
 
-###   This value of VBA is used to decide the scale for the velocity diagram 
-###   Let us construct the velocity diagram taking a scale: 
-###   0.3141 m/s = 60 mm (say) 
-###   1. The fixed link AD, appears as a point in the velocity diagram 
-###   2. From a, draw ab = 60mm, perpendicular to AB in configuration diagram and in the direction of velocity (downward direction) 
-###   3. From b, draw vector bc perpendicular to BC
-###   4. From (a,d), draw vector cd perpendicular to CD. This will intersect the previous vector at c.  
+Mark all given dimensions:
+
+AD = 120 mm (fixed link)
+
+AB = 30 mm (crank)
+
+CD = 60 mm (oscillating link)
+
+BC = unknown (equal to AD, so BC = 120 mm)
+
+Mark the fixed pivot points A and D.
+
+### Step 2: Position analysis (Displacement)
+
+Assign the input angle: ∠BAD = 60° (or variable if performing simulation).
+
+Use vector loop method or graphical construction to find coordinates of B and C:
+
+Vector equation: AB + BC = CD + DA
+
+Solve for unknown link angles: ∠ABC, ∠BCD.
+
+Plot the mechanism in different crank positions to get displacement of B and C.
+
+### Step 3: Velocity analysis
+
+Angular velocity of crank AB
+𝜔AB=2𝜋𝑁/60
+𝜔AB=2𝜋×100/60
+𝜔AB=10.47 rad/s
+This value of VBA is used to decide the scale for the velocity diagram
+velocity at point B
+Step 2: Velocity of point B
+𝑉𝐵=𝜔𝐴𝐵×𝐴𝐵
+VB=10.47×0.03
+𝑉𝐵=0.314 m/s
+
+### Step 4: Acceleration analysis
+
+Apply relative acceleration method:
+ Acceleration of B: 𝑎𝐵=𝛼𝐴𝐵×𝐴𝐵−𝜔2𝐴𝐵×AB
+ Acceleration of C: 𝑎𝐶=𝑎𝐵+𝑎𝐶/𝐵
+​Resolve accelerations into tangential and normal components.
+Calculate magnitude and direction of accelerations for each link.
 
 ![image](https://github.com/Sellakumar1987/Ex.-No.-1.-SIMULATION-ANALYSIS-ON-FOUR-BAR-CHAIN-MECHANISM/assets/113594316/76094ae8-a8af-48f3-b2c4-472ab800cc8e)
 
@@ -45,18 +78,24 @@
 ###   3. Finally, calculate ωcd from the relation v = rω 
 ###   Thus, link CD revolves with ωcd = 4 rad/s (clockwise about D) 
 
-![image](https://github.com/Sellakumar1987/Ex.-No.-1.-SIMULATION-ANALYSIS-ON-FOUR-BAR-CHAIN-MECHANISM/assets/113594316/97627fa4-0d38-412c-8745-082bd7b85299)
-
-![image](https://github.com/Sellakumar1987/Ex.-No.-1.-SIMULATION-ANALYSIS-ON-FOUR-BAR-CHAIN-MECHANISM/assets/113594316/15f7e50d-486d-46d0-bed0-8f51b36e7396)
-
-![image](https://github.com/Sellakumar1987/Ex.-No.-1.-SIMULATION-ANALYSIS-ON-FOUR-BAR-CHAIN-MECHANISM/assets/113594316/b01469ff-cb80-4ca6-a6ef-ae521ee9b717)
 
 
 ## Output:
+<img width="1139" height="803" alt="Screenshot (83)" src="https://github.com/user-attachments/assets/5c23d718-1227-4f4c-9dda-60eaced4f1d5" />
+<img width="1148" height="773" alt="Screenshot (84)" src="https://github.com/user-attachments/assets/f81ecc89-13f5-4b47-aca8-bf76f89bdad5" />
+<img width="1135" height="796" alt="Screenshot (85)" src="https://github.com/user-attachments/assets/9eb368ff-e37c-47f9-a76b-8a134e6c5046" />
+
+<img width="1147" height="801" alt="image" src="https://github.com/user-attachments/assets/3d4d2b0c-fd39-499c-b486-7bee2fe27680" />
+<img width="1141" height="752" alt="image" src="https://github.com/user-attachments/assets/a0f0d49b-ce12-4aa3-b217-249ec3e7d7ae" />
+
+<img width="1146" height="752" alt="Screenshot (78)" src="https://github.com/user-attachments/assets/a398f84a-fb5a-4212-a94d-409131d8dd12" />
+<img width="1142" height="803" alt="Screenshot (81)" src="https://github.com/user-attachments/assets/a8a7b9ea-0a01-400d-8c73-863966b84205" />
 
 
-### Name:
-### Register Number: 
+
+
+### Name:KANISHKA N
+### Register Number: 212225230127
 
 ## RESULT:
  ### Thus the displacement & velocity analysis for the given four bar chain mechanism is simulated.
